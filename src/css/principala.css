@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Setează înălțimea minimă a elementului html și body la 100% */
+html, body {
+  height: 100%;
+}
+/* Containerul principal folosește Flexbox pentru a aranja elementele */
+#section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+
+/* Stiluri opționale pentru aspect */
+header {
+  background: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+/* Stiluri pentru alinierea elementelor din header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.search-bar button i {
+  font-style: normal; /* Asigurați-vă că aveți o pictogramă sau text în interiorul butonului */
+}
+
+nav#nav {
+  margin-top: 20px;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav#nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav#nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#section {
+  padding: 20px;
+}
+
+#section figure {
+  margin: 0;
+  text-align: center;
+}
+
+#section img {
+  max-width: 100%;
+  height: auto;
+}
+
+#section q {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#section h3 {
+  text-align: center;
+  color: #333;
+}
+
+footer {
+  width: 100%;
+  background-color: hsla(0, 0%, 20%, 0.879);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+
+}
+section.con{
+ 
+  
+  text-align: center;
+}
+q{
+  color: #4CAF50;
+}
